@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
 using ThirdParty;
 
-namespace Adv
+namespace BadProject.AdvertisementSources
 {
 	public interface AdvertSource
 	{

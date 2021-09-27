@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Configuration;
 using System.Threading.Tasks;
+using BadProject.AdvertisementSources.ErrorHandling;
 using ThirdParty;
 
-namespace Adv
+namespace BadProject.AdvertisementSources
 {
 	public class PrimaryAdSource : AdvertSource
 	{

@@ -5,7 +5,7 @@ using System.Threading;
 using System.Timers;
 using Timer = System.Timers.Timer;
 
-namespace Adv
+namespace BadProject.AdvertisementSources.ErrorHandling
 {
 	public class ReverseDateOrder : IComparer<DateTime>
 	{

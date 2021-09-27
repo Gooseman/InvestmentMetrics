@@ -1,6 +1,6 @@
 ﻿using ThirdParty;
 
-namespace Adv
+namespace BadProject.AdvertisementSources
 {
 	/// <summary>
 	/// This interface matches that of third party advert data sources.  It allows wrapping of a third party source in

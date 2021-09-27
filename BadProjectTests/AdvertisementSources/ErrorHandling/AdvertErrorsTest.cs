@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
-using Adv;
+using BadProject.AdvertisementSources.ErrorHandling;
 using NUnit.Framework;
 
-namespace BadProjectTests
+namespace BadProjectTests.AdvertisementSources.ErrorHandling
 {
 	public class AdvertErrorsTest
 	{

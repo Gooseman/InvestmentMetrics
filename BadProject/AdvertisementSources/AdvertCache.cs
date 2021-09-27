@@ -2,7 +2,7 @@
 using System.Runtime.Caching;
 using ThirdParty;
 
-namespace Adv
+namespace BadProject.AdvertisementSources
 {
 	public sealed class AdvertCache : IDisposable
 	{

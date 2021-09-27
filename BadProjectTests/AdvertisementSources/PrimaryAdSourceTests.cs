@@ -1,10 +1,10 @@
 ﻿using System;
-using Adv;
+using BadProject.AdvertisementSources;
 using Moq;
 using NUnit.Framework;
 using ThirdParty;
 
-namespace BadProjectTests
+namespace BadProjectTests.AdvertisementSources
 {
 	public class PrimaryAdSourceTests
 	{

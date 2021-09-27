@@ -42,15 +42,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdvertCache.cs" />
-    <Compile Include="AdvertErrors.cs" />
     <Compile Include="AdvertisementService.cs" />
-    <Compile Include="AdvertSource.cs" />
-    <Compile Include="NoSqlAdvProviderWrapper.cs" />
-    <Compile Include="PrimaryAdSource.cs" />
+    <Compile Include="AdvertisementSources\AdvertCache.cs" />
+    <Compile Include="AdvertisementSources\AdvertSource.cs" />
+    <Compile Include="AdvertisementSources\ErrorHandling\AdvertErrors.cs" />
+    <Compile Include="AdvertisementSources\NoSqlAdvProviderWrapper.cs" />
+    <Compile Include="AdvertisementSources\PrimaryAdSource.cs" />
+    <Compile Include="AdvertisementSources\RemoteAddSource.cs" />
+    <Compile Include="AdvertisementSources\SecondaryAdSource.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RemoteAddSource.cs" />
-    <Compile Include="SecondaryAdSource.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ThirdParty\ThirdParty.csproj">

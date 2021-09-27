@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Adv;
+using BadProject.AdvertisementSources;
 using NUnit.Framework;
 using ThirdParty;
 
-namespace BadProjectTests
+namespace BadProjectTests.AdvertisementSources
 {
 	public class AdvertCacheTests
 	{
